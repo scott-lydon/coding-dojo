@@ -1,0 +1,28 @@
+h1, p {
+    color: pink;
+    
+}
+/* div in h1 */
+div h1 {
+
+}
+
+/* dot class name*/
+.title {
+    color: red;
+}
+
+.content { 
+    color: blue;
+}
+
+.info {
+    color: green;
+}
+
+.main h1 {
+    color: blue;
+    display: inline;
+    width: 100px;
+    padding: 100px;
+}
