@@ -3,22 +3,25 @@
     padding: 0px;
 }
 
+
+
+
 /* :root {
     
 } */
 
 .container {
     height: 300px;
-    /*width: 400px;*/
+    width: 400px;
     background: #eee;
-    /*position: absolute;*/
+    position: absolute;
     
-    position: relative;
-    width: 100%;
+    /* position: relative;
+    width: 100%; */
 
-    /*margin: -150px 0 0 -150px;*/
-    left: 0%;
-    top: 0%;
+    margin: -150px 0 0 -150px;
+    left: 50%;
+    top: 50%;
 }
 
 .box {
