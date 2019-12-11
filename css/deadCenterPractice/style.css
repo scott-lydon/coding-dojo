@@ -11,15 +11,27 @@
 } */
 
 .container {
-    height: 300px;
-    width: 400px;
+    /* Brend
+    
+    You only need to change the following
+     line and all the corresponding values 
+     will keep the element in the correct 
+     relative placement.*/
+    --containerHeight: 500px;
+    height: var(--containerHeight);
+    width: calc(var(--containerHeight));
     background: #eee;
     position: absolute;
     
     /* position: relative;
     width: 100%; */
+    /* The margins are negative top and negative left,
+      because it is */
+    --offset: 50%;
 
-    margin: -150px 0 0 -150px;
+    /*why does multiplying by offset treated differentl from dividing by 2?*/
+    --containerMargin: calc(calc(var(--containerHeight) / 2) * -1);
+    margin: var(--containerMargin) 0 0 var(--containerMargin);
     left: 50%;
     top: 50%;
 }
