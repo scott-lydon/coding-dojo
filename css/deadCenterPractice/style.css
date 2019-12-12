@@ -17,7 +17,7 @@
      line and all the corresponding values 
      will keep the element in the correct 
      relative placement.*/
-    --containerHeight: 500px;
+    --containerHeight: 300px;
     height: var(--containerHeight);
     width: calc(var(--containerHeight));
     background: #eee;
