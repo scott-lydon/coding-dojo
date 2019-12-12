@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/* :root {
+    
+} */
+
+.container {
+    /* Brend
+    
+    You only need to change the following
+     line and all the corresponding values 
+     will keep the element in the correct 
+     relative placement.*/
+    --containerHeight: 300px;
+    height: var(--containerHeight);
+    width: calc(var(--containerHeight));
+    background: #eee;
+    position: absolute;
+    
+    /* position: relative;
+    width: 100%; */
+    /* The margins are negative top and negative left,
+      because it is */
+    --offset: 50%;
+
+    /*why does multiplying by offset treated differentl from dividing by 2?*/
+    --containerMargin: calc(calc(var(--containerHeight) / 2) * -1);
+    margin: var(--containerMargin) 0 0 var(--containerMargin);
+    left: 50%;
+    top: 50%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: #222;
+    position: absolute;
+
+    /*Centering Method 2*/
+    margin: -50px 0 0 -50px;
+    left: 50%;
+    top: 50%;
+}
