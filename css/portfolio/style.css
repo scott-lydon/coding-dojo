@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: linear-gradient(to bottom right,#35272C, #6C5A63, #291D21);
+}
+
+    main, header, footer, .technologies, article p {
+        padding: 1em;
+    }
+
+footer {
+    text-align: center;
+}
+
+header, footer {
+    background-color: #F4F4F4;
+}
+
+    header h1, header h2 {
+        display: inline-block;
+        width: 49%;
+    }
+
+    header h2 {
+        text-align: right;
+    }
+
+article h2 {
+   background-image: linear-gradient(#B3B3B6, #878692, #B3B3B6);
+   color: white;
+}
+
+.profile {
+    margin-bottom: 3em;
+}
+
+    .profile img {
+        vertical-align: top;
+        margin-right: 3em;
+    }
+
+    .profile img, .profile article {
+        width: 46%;
+        display: inline-block;
+        height: 20em;
+    }
+
+.about {
+    width: 10em;
+}
+
+.technologies {
+    background-image: linear-gradient(to right, #FFFFFF , #D8CCD8);
+}
+
+article p {
+    background-image: linear-gradient(to right, #FFFFFF , #D8CCD8);
+    text-align: left;
+}
+
+.subTopics {
+    text-align: center;
+}
+
+#center {
+    margin: 0 3em;
+}
+
+.subTopic {
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subTopics img {
+    width: 100%;
+    height: 10em;
+}
+
+a {
+    color: black;
+}
+
+.icons {
+    width: 100%;
+    height: 5em;
+    text-align: left;
+}
+
+.icons img {
+    width: 2em;
+    height: 2em;
+}
+
+footer div img {
+    width: 1em;
+    height: 1em;
+}
+
+footer div { 
+    text-align: bottom;
+}
+
+button {
+    background-color: green;
+    border: 1px;
+    border-radius: 1em;
+    border-color: black;
+    border-style: solid;
+    padding: 0.7em;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
