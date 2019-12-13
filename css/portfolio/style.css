@@ -17,6 +17,7 @@ footer {
 
 header, footer {
     background-color: #F4F4F4;
+    font-family: "Comic Sans MS";
 }
 
     header h1, header h2 {
@@ -40,12 +41,14 @@ article h2 {
     .profile img {
         vertical-align: top;
         margin-right: 3em;
+        min-width: 30em;
     }
 
     .profile img, .profile article {
         width: 46%;
         display: inline-block;
         height: 20em;
+        min-width: 30em;
     }
 
 .about {
@@ -73,6 +76,8 @@ article p {
     width: 29%;
     display: inline-block;
     vertical-align: top;
+    min-width: 18em;
+    margin-bottom: 4em;
 }
 
 .subTopics img {
