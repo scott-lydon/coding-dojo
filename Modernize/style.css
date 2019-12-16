@@ -1,0 +1,79 @@
+:root {
+    /*black, white*/
+    --backgroundGray: #1A1A1A;
+    --topGray: #585858;
+    --bottomGray: #1D1D1D;
+    --lineGray: #3B3B3B;
+    --orange: #E18642;
+    --topOrange: #EFC3A0;
+    --bottomOrange: #E08541;
+    --backgroundBlack: #030303;
+    --linkGrayy: #6E6F6D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img, p, header {
+    display: inline-block;
+}
+
+header {
+    background-color: var(--backgroundGray);
+    padding: 2em;
+    width: 100%;
+}
+
+.modernizeLogo {
+    width: 47%;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+}
+
+header p {
+    color: white;
+    width: 47%;
+    text-align: right;
+    vertical-align: top;
+    min-width: 300px;
+}
+
+nav {
+    background-image: linear-gradient(var(--topGray), var(--bottomGray));
+    width: 100%;
+    padding: 1.5em;
+}
+
+    nav a {
+        color: #A1A7A5;
+        display: inline-block;
+        margin-right: 3em;
+        vertical-align: center;
+        text-decoration: none;
+    }
+
+    nav a:focus, nav a:active {
+        color: white;
+    }
+
+    /* nav .divider { 
+        display: inline-block;
+        width: 10px;
+        height: 60%;
+        background-image: linear-gradient(var(--bottomGray), var(--topGray));
+    } */
+
+main img { 
+    width: 100%;
+}
+
+main .divider { 
+    height: 10px;
+    width: 100%;
+    background-color: var(--lineGray);
+}
