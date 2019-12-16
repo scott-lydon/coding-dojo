@@ -67,13 +67,54 @@ nav {
         height: 60%;
         background-image: linear-gradient(var(--bottomGray), var(--topGray));
     } */
-
+main {
+    width: 100%;
+    background-size: 100%;
+}
 main img { 
     width: 100%;
 }
 
 main .divider { 
-    height: 10px;
+    height: 3px;
     width: 100%;
     background-color: var(--lineGray);
+    /*Hack, need to figure out why their is a 4px top margin offset in output.*/
+    margin-top: -4px;
 }
+
+article { 
+    background-color: var(--backgroundGray);
+}
+
+.subArticle {
+    padding: 2em;
+    width: 23%;
+    display: inline-block;
+    /* height: 25em; */
+}
+
+    .subArticle img,
+    .subText {
+        display: inline-block;
+    }
+
+    .subArticle h3,
+    .subArticle p {
+        color: white;
+    }
+
+    .subArticle img {
+        width: 4em;
+        height: 3em;
+        vertical-align: top;
+    }
+
+.subText {
+    width: 10em;
+    height: 20em;
+}
+
+    .subText h3 {
+        color: var(--orange);
+    }
