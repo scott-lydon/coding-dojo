@@ -12,9 +12,14 @@
     --backupButton: #E08541;
 }
 
+html * {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 img, p, header {
@@ -134,6 +139,8 @@ main .divider {
     .buySection article {
         width: 60%;
         vertical-align: center;
+        padding-top: 1em;
+        padding-left: 1em;
     }
 
         .buySection article h2, .buySection article p {
@@ -148,7 +155,7 @@ main .divider {
         width: 11em;
         height: 4.5em;
         margin-left: 10em;
-        margin-top: -3em;
+     /* margin-top: -12em; */
         border: none;
         background-image: linear-gradient(var(--bottomOrange), var(--backupButton));
         vertical-align: center;
@@ -189,6 +196,7 @@ footer {
         text-align: right;
         color: var(--orange);
         text-decoration: none;
+        font-style: italic;
     }
 
 
