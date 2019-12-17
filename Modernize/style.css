@@ -5,10 +5,11 @@
     --bottomGray: #1D1D1D;
     --lineGray: #3B3B3B;
     --orange: #E18642;
-    --topOrange: #EFC3A0;
-    --bottomOrange: #E08541;
+    --topOrange: #E59F65;
+    --bottomOrange: #E49A5E;
     --backgroundBlack: #030303;
     --linkGrayy: #6E6F6D;
+    --backupButton: #E08541;
 }
 
 * {
@@ -69,8 +70,8 @@ nav {
     } */
 main {
     width: 100%;
-    background-size: 100%;
 }
+
 main img { 
     width: 100%;
 }
@@ -83,15 +84,14 @@ main .divider {
     margin-top: -4px;
 }
 
-article { 
+.articleGroup { 
     background-color: var(--backgroundGray);
+    padding: 2em 0.5em;
 }
 
 .subArticle {
-    padding: 2em;
     width: 23%;
     display: inline-block;
-    /* height: 25em; */
 }
 
     .subArticle img,
@@ -108,13 +108,129 @@ article {
         width: 4em;
         height: 3em;
         vertical-align: top;
+        object-fit: contain;
     }
 
 .subText {
-    width: 10em;
-    height: 20em;
+    width: 70%;
+    /* height: 20em; */
 }
 
     .subText h3 {
         color: var(--orange);
     }
+
+.buySection {
+    width: 100%;
+    height: 10em;
+    background-color: var(--backgroundBlack);
+    padding: 1.5em;
+}
+
+    .buySection article, .buttonContainer {
+        display: inline-block;
+    }
+
+    .buySection article {
+        width: 60%;
+        vertical-align: center;
+    }
+
+        .buySection article h2, .buySection article p {
+            color: white;
+        }
+
+        .buySection article h2 {
+            margin-bottom: 1em;
+        }
+
+    .buySection button {
+        width: 11em;
+        height: 4.5em;
+        margin-left: 10em;
+        margin-top: -3em;
+        border: none;
+        background-image: linear-gradient(var(--bottomOrange), var(--backupButton));
+        vertical-align: center;
+        color: white;
+        border-radius: 0.75em;
+        font-size: 13px;
+        padding: 0;
+    }
+
+footer {
+    background-color: var(--backgroundGray);
+    width: 100%;
+    height: 30em;
+}
+
+.portfolios {
+    background-color: var(--backgroundGray);
+    padding-left: 4em;
+}
+
+
+.footerTop {
+    height: 4em;
+    padding: 2em 0 0 2em;
+}
+
+    .footerTop h2, .footerTop a {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+    }
+
+    .footerTop h2 {
+        color: white;
+    }
+
+    .footerTop a {
+        text-align: right;
+        color: var(--orange);
+        text-decoration: none;
+    }
+
+
+.portfolios h4 {
+    color: var(--orange);
+}
+
+.portfolios p {
+    color: white;
+}
+
+.portfolios article {
+    padding: 1em;
+}
+
+.portfolios article img {
+    border: 3px;
+    border-style: solid;
+    border-color: #363636;
+}
+
+.portfolios article {
+    width: 20%;
+    object-fit: contain;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.portfolios h4 {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.absoluteBottom { 
+    width: 98%;
+    height: 1.3em;
+    color: var(--linkGrayy);
+    background-color: var(--backgroundGray);
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    margin-right: 2em;
+    padding-right: 2em;
+}
+
